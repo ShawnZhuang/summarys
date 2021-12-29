@@ -21,7 +21,7 @@ def before_run(self ,context):
 def after_run(self,
              run_context,  # pylint: disable=unused-argument
              run_values):
-      #  run values is the same as the return value of before run
+      #  run values is the fetched values of the return value of before_run()
     run_values.results  
 
 ```
